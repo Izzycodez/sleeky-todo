@@ -1,0 +1,39 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "item": "do some house chores",
+      "checked": false
+    },
+    {
+      "id": 2,
+      "item": "do the laundry",
+      "checked": false
+    },
+    {
+      "id": 3,
+      "item": "cook",
+      "checked": false
+    },
+    {
+      "id": 4,
+      "item": "complete my react project",
+      "checked": false
+    },
+    {
+      "id": 6,
+      "item": "interact with connections on linkedin",
+      "checked": false
+    },
+    {
+      "id": 7,
+      "item": "hit the gym at 6pm",
+      "checked": false
+    },
+    {
+      "id": 8,
+      "item": "practise my guitar",
+      "checked": false
+    }
+  ]
+}
