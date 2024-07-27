@@ -3,7 +3,7 @@ import React from 'react'
 const AddForm = ({ newitem, setNewItem, handleSubmit }) => {
   return (
     //This AddForm component is responsible for adding new entries to the list
-    <form className="addForm" onSubmit={handleSubmit}>
+    <form className ="addForm" onSubmit={handleSubmit}>
       <input
         type="text"
         id="addtask"

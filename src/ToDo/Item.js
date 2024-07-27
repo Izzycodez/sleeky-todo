@@ -15,7 +15,7 @@ const Item = ({handleDelete, handlecheckBox, items}) => {
                 onChange={() => handlecheckBox(item.id)}
                 checked={item.checked}
               />
-              <button onClick={() => handleDelete(item.id)}>Delete</button>
+              <button onClick={() => handleDelete(item.id) }>Delete</button>
             </li>
           ))}
         </ol>

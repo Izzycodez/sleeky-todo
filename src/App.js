@@ -34,7 +34,7 @@ const App = () => {
         fetchItems()
     }, [])
   
-    const handleAdd= async(item)=>{
+    const handleAdd = async(item)=>{
         //We have to come up with a way to handle our tasks and push them into the items array
         const id = items.length ? items[items.length-1].id + 1 : 1;
         const newTask = {id,item, checked:false}

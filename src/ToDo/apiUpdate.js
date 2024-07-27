@@ -3,7 +3,7 @@ const apiUpdate = async (url ='', optionsObj = null, errMsg= null)=>{
         const res = await fetch(url, optionsObj);
         if (!res.ok) throw Error('Please reload the app...');
     } catch(err){
-        errMsg=err.message;
+        errMsg =err.message;
     } finally{
         return errMsg;
     }
