@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Item = ({handleDelete, handlecheckBox, items}) => {
+const Item = ({handleDelete, handlecheckBox, tasks}) => {
   return (
     <div>
-      {items.length ? (
+      {tasks.length ? (
         <ol>
-          {items.map((item) => (
+          {tasks.map((item) => (
             <li key={item.id} className='list'>
               <span>
                  {item.item}
